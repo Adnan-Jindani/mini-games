@@ -3,12 +3,12 @@ submit_dog = "Is your animal dog?\n"
 submit_cat = "Is your animal cat?\n"
 submit_elephant = "Is your animal elephant?\n"
 submit_bat = "Is your animal bat\n"
-submit_tiger = "Is your animal tiger?\n"
+submit_tiger = "Is your animal tiger?\n
 
 print("Keep an animal from the list in your mind :- elephant, cat, dog, tiger, bat")
 print("Type 'yes' or 'no' for the questions that are asked to you")
 a = input("Does your animal do bow - wow? \n")
-#dog
+dog
 if a == "yes":
     ans = input(submit_dog)
     if ans == "no":
@@ -21,7 +21,7 @@ elif a == "no":
     if b == "yes":
         ans = input(submit_cat)
         if ans == "no":
-            print("Sorry, I lose")
+            print("Sorry, I lose)
         input("Type exit and hit enter to exit\n")
     elif b == "no":
         data = ["elephant", "tiger", "bat"]
